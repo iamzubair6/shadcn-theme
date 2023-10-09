@@ -1,4 +1,4 @@
-import Nav from "@/components/nav/Nav";
+import Nav from "@/components/nav/nav";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
@@ -18,10 +18,14 @@ export default function Home() {
           perferendis ut eaque, corrupti rem, nobis ducimus autem doloremque ea
           officia harum!
         </p>
-        <div>
-          <Button variant={"destructive"}>Learn More</Button>
+        <div className="flex justify-center mt-10 gap-5">
+          <Button variant={"success"} size={"lg"}>
+            Learn More
+          </Button>
 
-          <Button variant={"destructive"}>Learn More</Button>
+          <Button variant={"info"} size={"lg"}>
+            Learn More
+          </Button>
         </div>
       </section>
     </main>

@@ -1,6 +1,5 @@
 "use-clint";
 import Image from "next/image";
-import "../nav/nav.css";
 
 function Nav() {
   return (
@@ -25,7 +24,7 @@ function Nav() {
               />
             </a>
           </li>
-          <li>Toggle Button</li>
+          <li className="bg-bluee">Toggle Button</li>
         </ul>
       </nav>
     </header>
